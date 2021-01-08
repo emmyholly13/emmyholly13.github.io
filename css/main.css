@@ -1,0 +1,36 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+    font-family: Helvetica;
+}
+header {
+    background-color: darkgoldenrod;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 6px 6px 6px 6px;
+    
+}
+
+footer {
+    background-color: darkgoldenrod;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: .8em;
+    border-radius: 6px 6px 6px 6px;
+   
+   
+}
+
+img {
+    width: 120px;
+    float: right;
+    
+}
+
