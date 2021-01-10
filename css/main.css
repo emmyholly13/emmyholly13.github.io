@@ -9,7 +9,7 @@ header, nav, main, footer {
     font-family: Helvetica;
 }
 header {
-    background-color: darkgoldenrod;
+    background-color: rgb(121, 87, 0);
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -18,7 +18,7 @@ header {
 }
 
 footer {
-    background-color: darkgoldenrod;
+    background-color: rgb(121, 87, 0);
     color: #fff;
     text-align: center;
     padding: 1rem;
