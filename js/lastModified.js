@@ -1,5 +1,6 @@
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
-document.getElementById('lastModified').textContent = new Date().toLocaleDateString('en-US', options);
+var x = document.lastModified;
+document.getElementById("date").innerHTML = x;
 
 
