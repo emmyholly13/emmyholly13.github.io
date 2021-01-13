@@ -8,6 +8,14 @@ header, nav, main, footer {
     max-width: 760px;
     font-family: Helvetica;
 }
+
+h1 {
+    font-family: 'Bodoni Moda', serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
 header {
     background-color: rgb(121, 87, 0);
     color: #fff;
