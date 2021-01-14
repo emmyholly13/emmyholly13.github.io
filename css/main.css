@@ -10,11 +10,15 @@ header, nav, main, footer {
 }
 
 h1 {
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Hind Siliguri', sans-serif;
+
+
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Quicksand', sans-serif;
+    
 }
 header {
     background-color: rgb(121, 87, 0);
@@ -39,7 +43,6 @@ footer {
 
 img {
     width: 120px;
-    float: right;
     box-shadow: 0px 4px 4px 4px rgb(164, 163, 163);
     border-radius: 0px 6px 0px 0px;
     
