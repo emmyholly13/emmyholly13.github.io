@@ -7,7 +7,7 @@
         display: block;
     }
     main section:nth-child(3) {
-        grid-columns: span 1;
+        grid-column: span 1;
     }
     
 }
