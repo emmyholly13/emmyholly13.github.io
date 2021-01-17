@@ -7,7 +7,7 @@ font-family: 'Oswald', sans-serif;
 
 header, main, footer {
     margin: 1.25rem auto;
-    max-width: 768px auto;
+    max-width: 100%;
 }
 main {
 
