@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 header, footer {
     display: flex;
@@ -13,6 +13,13 @@ header, nav, main, footer {
     margin: 0 auto;
     max-width: 1200px;
    
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
 }
 nav {
     font-family: 'Anton', sans-serif;
@@ -24,19 +31,27 @@ nav ul {
     padding: 0;
     overflow: hidden;
 }
-nav li a {
+nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 0.75rem;
+    padding: 0.75rem 2%;
     text-decoration: none;
     font-size: 1rem;
+    border-top:1px solid rgba(0,0,0,0.3);
 }
-nav a:hover {
+nav ul li .active a{
+    background-color: rgba(0,0,0,0.2); color: #fff;
+}
+nav ul li a:hover {
     background-color: #09b6d9;
     color: black; 
+}
+nav ul.hide {
+    display: none;
 
 }
+
 main {
 
     margin: 1.25rem auto;
@@ -84,6 +99,9 @@ header {
     text-align: center;
     padding: 1.25rem;  
 }
+header h1 {
+    margin: 1rem;
+}
 
 footer {
     background-color: #0997d9;
@@ -104,3 +122,10 @@ section ul li {
     display: block;
     padding: 0.75rem;
 }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
