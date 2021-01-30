@@ -8,20 +8,21 @@ body {
 header, footer {
     display: flex;
     
+    
 }
 header, nav, main, footer {
     margin: 0 auto;
     max-width: 1200px;
+    
    
 }
 nav button {
-
+   
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #fff;
-    
+    color: #fff;  
 }
 nav {
     font-family: 'Anton', sans-serif;
@@ -33,6 +34,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
 }
 nav ul li a {
     display: block;
