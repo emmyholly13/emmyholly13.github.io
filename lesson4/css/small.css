@@ -17,16 +17,21 @@ header, nav, main, footer {
    
 }
 nav button {
-   
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
     color: #fff;  
+    
+    
 }
 nav {
     font-family: 'Anton', sans-serif;
     background-color: #0a6fad;
+    
+   
+ 
+    
 }
 nav ul {
     
@@ -44,7 +49,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1rem;
     border-top:1px solid rgba(0,0,0,0.3);
-    
+   
 }
 nav ul li .active a{
     background-color: rgba(0,0,0,0.2); color: rgb(194, 172, 5);
