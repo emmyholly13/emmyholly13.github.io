@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Page Document</title>
+    <meta name="description"
+        content="Preston Page Document for Emmy Bitter in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <link rel="shortcut icon" href="bike_logo.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <img src="images/bike_logo.png" alt="Weather_bike_logo">
+        <section class="headings">
+        <h1>Bike Weather</h1>
+        <div class="tag">It's a great day for a ride!</div>
+        </section>
+        
+
+    </header>
+    <nav class="clearfix">
+
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+
+        </ul>
+    </nav>
+    <main>
+            <h2>Preston Idaho</h2>
+            <div class="herodiv">
+            <div class="hero-box"></div>
+            <img src="images/bike_scenary.jpg" alt="Biking in the mountains">
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: Sunny</p>
+                <p>High: 85 F</p>
+                <p>Low: 75 F</p>
+                
+            </section>
+        </div>
+
+        <h2>Five-Day Forecast</h2>
+        <div class="contentbox"> Friday</div>
+        <div class="contentbox"> Saturday</div> 
+        <div class="contentbox"> Sunday</div>
+        <div class="contentbox"> Monday</div>
+    </main>
+    <footer>
+        &copy; <span id="year"></span> | Emmy Bitter | Colorado |
+        Last Modified: <span id="date"></span>
+    </footer>
+    <script src="js/prestonPage.js"></script>
+
+
+</body>
+
+</html>
