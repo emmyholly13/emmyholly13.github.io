@@ -118,13 +118,15 @@ header h1 {
 .contentbox {
     display: flex;
     margin: 10px auto;
-    border: 1px solid rgb(87, 87, 87); 
+    
     padding: 15px;
     color: rgb(87, 87, 87);
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(161, 187, 208);
     box-sizing: border-box;
     line-height: 1em;
     margin: 0;
+    
+    justify-content: center;
 }
 
 footer {
