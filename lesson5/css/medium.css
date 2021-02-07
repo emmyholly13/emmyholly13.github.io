@@ -25,23 +25,52 @@ nav ul li a {
      grid-template-columns: 1fr;}
      
      .contentbox {
-        display: flex;
+        display: grid;
         margin: 10px auto;
         padding: 15px;
         color: rgb(87, 87, 87);
         background-color: rgb(161, 187, 208);
+        text-align: center;
+        align-items: center;
         box-sizing: border-box;
         line-height: 1em;
-        margin: 0;
         justify-content: center;
     }
-   
-
-    /* section ul {
+    .contentbox-article {
+        display: grid;
+        margin: 10px auto;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(161, 187, 208);
+        align-items: center;
+        box-sizing: border-box;
+        line-height: 1em;
+        justify-content: center;
+    }
+    .article {
         display: flex;
-        padding: 0.75rem;}
-
-    section ul li {
-        flex: 1 1 100%; }
-    */
+        
+       
+       
+    }
+    .article h2 {
+        text-align: center;
+        
+    }
+  .article img {
+     float: right;
+    
+  }
+  .contact {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 15px;
+    line-height: 1em;
+}
+.social {
+    display: block;
+    
+   
+    
+}
 }
