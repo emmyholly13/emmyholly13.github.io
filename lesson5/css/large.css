@@ -1,9 +1,23 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 950px) {
     nav a {
         font-size: 1.5rem;
     }
      main {
         grid-template-columns: 1fr;
     }
- 
+    .contentbox {
+        display: flex;
+        margin: 10px auto;
+        padding: 15px;
+        color: rgb(87, 87, 87);
+        background-color: rgb(161, 187, 208);
+        box-sizing: border-box;
+        line-height: 1em;
+        margin: 0;
+        justify-content: center;
+    }
+  .article img {
+      padding: 1rem;
+      display: flex;
+  }
  } 
