@@ -136,7 +136,15 @@ main ul li {
     display: block;
     padding: 0.75rem;
 }
+.weathersummary {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    background-color: rgba(127, 211, 242, 0.5);
+    padding: .5rem;
+    border: 0px;
 
+}
 
 .contentbox {
     display: block;
@@ -174,15 +182,7 @@ main ul li {
       
     
 }
-.weathersummary {
-    position: absolute;
-    top: 10px;
-    left: 50px;
-    background-color: rgba(127, 211, 242, 0.5);
-    padding: .5rem;
-    border: 0px;
 
-}
 .footersection {
         display: block;
         margin: 10px auto;
@@ -194,6 +194,7 @@ main ul li {
         margin: 0;
         justify-content: left;
 }
+
 footer {
     background-color: #0997d9;
     color: #000;
