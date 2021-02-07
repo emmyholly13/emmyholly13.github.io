@@ -91,7 +91,7 @@ h3 {
 font-family: 'Oswald', sans-serif;
 }
 h4 {
-    color: #fff;
+    color: rgb(21, 20, 20);
     text-align: left;
     padding: 1rem;
 font-family: 'Oswald', sans-serif;
@@ -182,6 +182,17 @@ main ul li {
     padding: .5rem;
     border: 0px;
 
+}
+.footersection {
+        display: block;
+        margin: 10px auto;
+        padding: 15px;
+        color: rgb(87, 87, 87);
+        background-color: rgb(161, 187, 208);
+        box-sizing: border-box;
+        line-height: 1em;
+        margin: 0;
+        justify-content: left;
 }
 footer {
     background-color: #0997d9;
