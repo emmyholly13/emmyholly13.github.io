@@ -5,17 +5,7 @@
      main {
         grid-template-columns: 1fr;
     }
-    picture.herophoto {
-        display: block;
-        width: 96%;
-        margin: 0 2%;
-    }
-    picture.articlephoto {
-        display:block;
-        float: right;
-        width: 46%;
-        margin: 0 2%;
-    }
+    
     .weathersummary {
         position: absolute;
         top: 10px;
@@ -47,15 +37,9 @@
         box-sizing: border-box;
         line-height: 1em;
         justify-content: center;
+    
     }
-    .article {
-        display: flex;
-       
-    }
-  
-  .article img {
-     float: right;
-  }
+
      .footersection {
         display: flex;
         margin: 10px auto;

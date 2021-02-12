@@ -33,17 +33,7 @@ nav ul li a {
         border: 0px;
     
     }
-    picture.herophoto {
-        display: block;
-        width: 96%;
-        margin: 0 2%;
-    }
-    picture.articlephoto {
-        display:block;
-        float: right;
-        width: 46%;
-        margin: 0 2%;
-    }
+   
      
      .contentbox {
         display: grid;
@@ -78,10 +68,7 @@ nav ul li a {
         text-align: center;
         
     }
-  .article img {
-     float: right;
-    
-  }
+ 
   .contact {
     display: inline-block;
     margin: 10px auto;
