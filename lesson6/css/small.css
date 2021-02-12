@@ -12,7 +12,7 @@ header, footer {
 }
 header, nav, main, footer {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1100px;
     
    
 }
@@ -67,11 +67,7 @@ nav ul.hide {
 .herodiv img {
 width: 100%;
 }
-.hero-box img {
-    
-    margin: 100%;
-   width: 100%;
-}
+
 
 h1 {
     font-family: 'Anton', sans-serif;
