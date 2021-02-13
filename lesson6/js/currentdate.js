@@ -22,14 +22,13 @@ let months = [
     "October",
     "November",
     "December"
-
 ];
 
 let d = new Date();
 let dayName = days[d.getDay()];
-let monthName = month[d.getMonth()];
+let monthName = months[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayName + ", " + monthName + " " + d.getDate()+ "," + year;
+let fulldate = dayName +  ", " + monthName + "  " + d.getDate() + ", " + year;
 
 document.getElementById("currentdate").textContent = fulldate;
 
