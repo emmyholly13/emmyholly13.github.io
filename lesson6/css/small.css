@@ -71,27 +71,27 @@ width: 100%;
 
 h1 {
     font-family: 'Anton', sans-serif;
-    color: #fff;
+    color: rgb(255, 255, 255);
 
 }
 
 h2 {
 
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: rgb(29, 29, 29);
     padding: 1rem;
      line-height: 1em;
 }
 h3 {
   
-    color: rgb(0, 0, 0);
+    color: rgb(29, 29, 29);
     text-align: left;
     padding: .5rem;
     font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 h4 {
-    color: rgb(21, 20, 20);
+    color:  rgb(29, 29, 29);
     text-align: left;
     padding: 1rem;
 font-family: 'Roboto', sans-serif;
@@ -102,7 +102,7 @@ font-family: 'Roboto', sans-serif;
     display: none;
     font-family: 'Roboto', sans-serif;
     background-color: #d98d09;
-    color: rgb(0, 0, 0);
+    color:  rgb(29, 29, 29);
    text-align: center;
     padding: .3rem;  
 }
@@ -112,7 +112,7 @@ header {
     display: flex;
     font-family: 'Anton', sans-serif;
     background-color: #0997d9;
-    color: #fff;
+    color:  rgb(29, 29, 29);
     align-items: center;
     justify-content: center;
     padding: 1.25rem;  
@@ -191,7 +191,7 @@ line-height: .9rem;
         display: block;
         margin: 10px auto;
         padding: 15px;
-        color: rgb(0, 0, 0);
+        color:  rgb(29, 29, 29);
         background-color: rgb(161, 187, 208);
         box-sizing: border-box;
         line-height: 1em;
@@ -203,7 +203,7 @@ line-height: .9rem;
     display: block;
     margin: 10px auto;
     padding: 15px;
-    color: rgb(87, 87, 87);
+    color:  rgb(29, 29, 29);
     background-color: rgb(161, 187, 208);
     box-sizing: border-box;
     line-height: 1em;
@@ -214,6 +214,7 @@ line-height: .9rem;
 width: 100%;
 }
 .contact {
+    color:  rgb(29, 29, 29);
     display: block;
     margin: 10px auto;
     padding: 15px;
