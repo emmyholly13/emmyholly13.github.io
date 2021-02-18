@@ -1,8 +1,10 @@
 
 
-img {
-    display: grid;
-    grid-auto-rows: 400px;
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 img {
     min-width: 150px;
@@ -20,3 +22,7 @@ img {
     transition: filter 0.5s;
 }
 
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
