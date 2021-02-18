@@ -1,3 +1,5 @@
+
+
 img {
     display: grid;
     grid-auto-rows: 400px;
@@ -13,6 +15,7 @@ img[data-src] {
 }
 
 img {
+    margin-top: 20px;
     filter: blur(0px);
     transition: filter 0.5s;
 }
