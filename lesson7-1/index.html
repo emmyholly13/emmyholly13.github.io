@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site Document</title>
+    <meta name="description"
+        content="Weather Site Document for Emmy Bitter in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/bike_logo.png" alt="Weather_bike_logo">
+        <section class="headings">
+        <h1>Bike Weather</h1>
+        <div class="tag">It's a great day for a ride!</div>
+        </section>
+        
+
+    </header>
+    <nav class="clearfix">
+
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Site Name:</h2>
+            <h3>Bike Weather</h3>
+        </section>
+
+        <section>
+            <h2>Site Purpose:</h2>
+            <p>
+            <h3>The purpose for this site is to provide the audience with information about the local weather. This site
+                will provide a quick way to see what the weather will be where you are headed, wether it is in your car,
+                traveling, biking, or just out for a walk!</h3>
+            
+            <p>
+            <h3>It also provides information about wether or not you can go out and enjoy a bike ride in the current
+                conditions.</h3>
+            
+        </section>
+        <section>
+            <h2>Site Domain:</h2>
+
+            <h3>bikeweather.com</h3>
+        </section>
+
+    </main>
+    <footer>
+    &copy; | Preston Bike Weather | Emmy Bitter
+    <div id="currentDate"></div>
+    </footer>
+    <script src="js/prestonPage.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+
+</body>
+
+</html>
