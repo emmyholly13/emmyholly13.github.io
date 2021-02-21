@@ -16,6 +16,10 @@ header, nav, main, footer {
     
    
 }
+header img {
+  background-color: transparent;
+  
+}
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -39,6 +43,9 @@ nav ul {
     padding: 0;
     overflow: hidden;
     
+}
+.active {
+    background-color: black;
 }
 nav ul li a {
     display: block;
@@ -234,6 +241,33 @@ footer {
     padding: 1rem;
     font-size: .8em; 
 }
+
+img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+img {
+    min-width: 150px;
+    max-width: 300px;
+    background-color: grey;
+}
+img[data-src] {
+    filter: blur(3px);
+    
+}
+
+img {
+    margin-top: 20px;
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

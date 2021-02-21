@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Page</title>
-    <script src="js/gallery.js" defer></script>
+    <script src="js/lazyload.js" defer></script>
     <meta name="description"
         content="Gallery Page for Emmy Bitter in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="shortcut icon" href="favicon.ico">
@@ -19,18 +19,18 @@
     <link rel="stylesheet" href="css/large.css">
 
 
+
 </head>
 
 <body>
-    <div id="banner">
-        <p>"Saturday = Preston Pancakes in the Park!</p>  
-        <p>9:00 a.m. Saturday at the city park pavilion."</p>
-    </div>
     <header>
+
         <img src="images/bike_logo.png" alt="Weather_bike_logo">
+
         <section class="headings">
             <h1>Bike Weather</h1>
             <div class="tag">It's a great day for a ride!</div>
+
         </section>
 
 
@@ -41,7 +41,7 @@
         <ul id="primaryNav" class="hide">
 
             <li><a href="#">Home</a></li>
-            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -50,47 +50,39 @@
         </ul>
     </nav>
     <main>
-        <h2></h2>
-       
-        
-            
+        <h1>Weather Gallery</h1>
 
-        <section></section>
-
-
-
-        
-        <div class="footersection">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72630239669!2d-111.91543010718576!3d42.09980528544919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612562334684!5m2!1sen!2sus"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"> </iframe>
-
-            <div class="contact">
-                <h3>Contact Information</h3>
-                <p>555 Center St. Preston, Idaho 12345</p>
-                <p>555-555-5555</p>
-                <p>info@bikeweather.com</p>
-
-                <div class="social">
-                    <img src="images/facebook.png" alt="facebook icon">
-                    <img src="images/instagram.png" alt="instagram icon">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </div>
-            </div>
-        </div>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/sunny1.jpg" alt="clear everning photo">
+            <figcaption> Clear Evening</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/sunny2.jpg" alt="clouds photo">
+            <figcaption> White Clouds </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/sunny3.jpg" alt="sunny photo">
+            <figcaption> Sunny Day</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/windy4.jpg" alt="night clouds photo">
+            <figcaption> Clouds at Night</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/night_windy9.jpg" alt="sunny windy photo">
+            <figcaption> Windy Night</figcaption>
+        </figure>
     </main>
 
 
-
     <footer>
-        &copy; 2021 | Preston Bike Weather | Emmy Bitter | Current Date: <span id="currentdate"></span> 
+        &copy; 2021 | Gallery Page | Emmy Bitter | Current Date: <span id="currentdate"></span>
 
     </footer>
     <script src="js/prestonPage.js"></script>
     <script src="js/currentdate.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/windchill.js"></script>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
 
