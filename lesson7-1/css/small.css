@@ -131,8 +131,8 @@ header h1 {
 main {
 
     margin: 1.25rem auto;
-    display: block;
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 main section {
@@ -151,10 +151,7 @@ main ul {
     overflow: hidden;
 }
 
-main ul li {
-    display: block;
-    padding: 0.75rem;
-}
+
 picture.herophoto img{
    
 max-width: 1100px;
@@ -242,7 +239,7 @@ footer {
     font-size: .8em; 
 }
 
-img{
+main img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
@@ -261,6 +258,18 @@ img {
     margin-top: 20px;
     filter: blur(0px);
     transition: filter 0.5s;
+}
+figure {
+    box-shadow: 5px 5px 5px 5px black;
+}
+figure.image {
+    max-width: 300px;
+}
+figcaption {
+    text-align: center;
+}
+figure:hover {
+    box-shadow: 10px 15px grey;
 }
 
 footer {
