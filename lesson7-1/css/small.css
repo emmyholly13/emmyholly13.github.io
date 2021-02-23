@@ -239,7 +239,7 @@ footer {
     font-size: .8em; 
 }
 
-main img{
+section.weatherImg {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
@@ -251,7 +251,6 @@ img {
 }
 img[data-src] {
     filter: blur(3px);
-    
 }
 
 img {
@@ -264,6 +263,7 @@ figure {
 }
 figure.image {
     max-width: 300px;
+    
 }
 figcaption {
     text-align: center;
