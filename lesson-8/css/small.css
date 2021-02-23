@@ -1,12 +1,17 @@
+table {
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 5px 5px 5px 5px #628ca6;
+}
+
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 tr th h2 {
     height: 30px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    
 }
 tr th {
+    background-color: #7fb9c2;
     height: 30px;
     padding-left: 1rem;
     padding-right: 1rem;
