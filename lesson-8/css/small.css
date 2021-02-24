@@ -1,32 +1,70 @@
 table {
     font-family: 'Ubuntu', sans-serif;
     box-shadow: 5px 5px 5px 5px #628ca6;
+    margin: auto;
 }
 
-table, th, td {
-    border: 1px solid grey;
+table,
+th,
+td {
+    border: 2px solid rgb(186, 186, 186);
+    border-collapse: collapse;
 }
-tr th h2 {
+
+thead tr th {
     height: 30px;
-    
-}
-tr th {
+    color: black;
     background-color: #7fb9c2;
-    height: 30px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    font-size: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+
 }
+
+tr th {
+    height: 30px;
+    color: white;
+    background-color: #628ca6;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
 tr td {
+    height: 35px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+
+
+tfoot tr td {
     height: 30px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #7fb9c2;
+}
+.col {
+    background-color: #628ca6;
+    color: #fff;
 }
 
-tfoot {
-    height: 10px;
-}
-
-tr td h6 {
-    height: 10px;
+.italic {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
     text-align: center;
 }
