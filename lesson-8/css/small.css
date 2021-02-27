@@ -271,7 +271,7 @@ form label.top input, form label.top select {
     display: flex;
     flex-direction: column;
     font-size: 1rem;
-    border: solid 2px rgb(29, 28, 28);
+    border: solid 2px rgb(87, 87, 87);
     border-radius: 4px;
     padding: .75rem;
     color: #555;
@@ -282,8 +282,10 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
-    
+    color: #555;   
+}
+form label.sbs input , form label.sbs select, input {
+    background-color: rgba(0,0,0,0.1);
 }
 form input.submitBtn {
     border: none;
@@ -305,11 +307,9 @@ form label.comment input {
     display: block;
     color: #555;
     font-size: 1rem;
-    border: solid 2px rgb(29, 28, 28);
+    border: solid 2px rgb(87, 87, 87);
     border-radius: 4px;
     padding: .75rem;
-    
-   
     max-width: 40rem;
     height: 15rem;
     background-color: rgba(0,0,0,0.1);

@@ -36,14 +36,13 @@ nav ul li a {
     form label.comment input {
         display: block;
         font-size: 1rem;
-        border: solid 2px rgb(29, 28, 28);
+        border: solid 2px rgb(87, 87, 87);
         border-radius: 4px;
         padding: .75rem;
         color: #555;
-       
         width: 75rem;
         height: 15rem;
-        background-color: rgba(0,0,0,0.1);
+       
     }
    
      
