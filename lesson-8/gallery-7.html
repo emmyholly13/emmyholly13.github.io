@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <script src="js/lazyload.js" defer></script>
+    <meta name="description"
+        content="Gallery Page for Emmy Bitter in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <img src="images/bike_logo.png" alt="Weather_bike_logo">
+
+        <section class="headings">
+            <h1>Bike Weather</h1>
+            <div class="tag">It's a great day for a ride!</div>
+
+        </section>
+
+
+    </header>
+    <nav class="clearfix">
+
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+<section class="weatherImg">
+        <figure>
+            <img src="images/placeholder.png" data-src="images/sunny1.jpg" alt="clear everning photo">
+            <figcaption> Clear Evening </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/sunny2.jpg" alt="clouds photo">
+            <figcaption> White Clouds </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/sunny3.jpg" alt="sunny photo">
+            <figcaption> Sunny Day </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/windy4.jpg" alt="night clouds photo">
+            <figcaption> Clouds at Night </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/windy5.jpg" alt="clouds and field photo">
+            <figcaption> Couds and Field </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/windy6.jpg" alt="fire sky photo">
+            <figcaption> Fire Sky </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/sunny7.jpg" alt="lake photo">
+            <figcaption> Sunny Lake Day </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/night_windy9.jpg" alt="sunny windy photo">
+            <figcaption> Windy Night </figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholder.png" data-src="images/clear_sky10.jpg" alt="night rainbow">
+            <figcaption> Night Rainbow </figcaption>
+        </figure>
+    </section>
+    </main>
+
+
+    <footer>
+        &copy; 2021 | Gallery Page | Emmy Bitter | Current Date: <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/prestonPage.js"></script>
+    <script src="js/currentdate.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+
+</body>
+
+</html>

@@ -193,7 +193,7 @@ form legend {
 
 }
 form label.top, form div {
-   
+
     display: block;
     padding-top: 1rem;
     color:rgb(165, 69, 69);
@@ -207,7 +207,7 @@ form label.top input, form label.top select {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
+  
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
@@ -240,7 +240,7 @@ form label.comment input {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
+   
     max-width: 40rem;
     height: 15rem;
     background-color: rgba(0,0,0,0.1);
