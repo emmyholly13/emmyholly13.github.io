@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body class="stormBody">
 
 
     <header>
@@ -42,27 +42,27 @@
             <li><a href="preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li class="active"><a href="stormcenter.html">Preston</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery-7.html">Gallery</a></li>
 
         </ul>
     </nav>
-    <main>
-        <h1>Report A Storm</h1>
+    <main class="stormMain">
+        <h2 class="stormHeading">Report A Storm</h2>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label>First Name* <input type="text" name="fname" required></label>
-                <label>Last Name* <input type="text" name="lname" required></label>
-                <label>Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
-                <label>Zip Code* <input type="number" name="number" required></label>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Zip Code* <input type="number" name="number" required></label>
 
             </fieldset>
 
             <fieldset>
                 <legend>Storm Information</legend>
-                <label>Storm Date <input type="date" name="date"></label>
-                <label for="storm-type">Storm Type:</label>
+                <label class="sbs">Storm Date <input type="date" name="date"></label>
+                <label class="sbs" for="storm-type">Storm Type:</label>
                 <input list="storm-types" id="storm-type" name="storm-type" />
                 <datalist id="storm-types">
                     <option value="Flash Flood">
@@ -71,31 +71,31 @@
                     <option value="Thunderstorm">
                     <option value="Tornado">
                 </datalist>
-                <label>Storm Severity <input type="range" id="severity" name="severity" min="1" max="10"
-                        value="5"></label>
-                <label>Storm Region
+                <label class="rating">Rating: &nbsp;&nbsp;&nbsp;
+                <label class="sbs">Storm Severity <input type="range" id="rating" name="rating"  value="5" min="1" max="10" step="1" list="tickmarks"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                       
+                    </label>
+                        <label class="sbs">Storm Region
                     <select name="region">
-                        <option value="select-region" disabled> Select Region</option>
+                        <option value="select-region" disabled> Select Region &#9662;</option>
                         <option value="preston">Preston</option>
                         <option value="preston">Soda Springs</option>
-                        <option value="preston">FIsh Haven</option>
+                        <option value="preston">Fish Haven</option>
                     </select>
                 </label>
-                <lable><input type="radio" name="User in-danger level" value="yes"> Yes</lable>
-                <lable><input type="radio" name="User in-danger level" value="maybe"> Maybe</lable>
-                <lable><input type="radio" name="User in-danger level" value="no"> No</lable>
+                <label class="sbs">User In-Danger <input type="radio" name="User in-danger level" value="yes"> Yes</lable>
+                    <label class="sbs">User In-Danger <input type="radio" name="User in-danger level" value="maybe"> Maybe</lable>
+                        <label class="sbs">User In-Danger <input type="radio" name="User in-danger level" value="no"> No</lable>
             </fieldset>
             <fieldset>
                 <legend>Additional Information or Comments</legend>
-                <label>Additional Comments <input type="textarea" name="textarea"></label>
+                <label class="comment">Additional Comments <input type="textarea" name="textarea"></label>
             </fieldset>
-            <input type="submit" value="Send Report">
+            <input type="submit" value="Send Report" class="submitBtn">
 
         </form>
-
-
-
-
 
 
         <div class="footersection">
@@ -130,6 +130,7 @@
     <script src="js/banner.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/lazyload.js"></script>
+    <script src="js/stormcenter.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
 

@@ -5,6 +5,11 @@
      main {
         grid-template-columns: 1fr;
     }
+    /*----------FORM---------*/
+    from label.sbs {
+        padding: .4rem 0;
+    }
+    
     
     .weathersummary {
         position: absolute;
