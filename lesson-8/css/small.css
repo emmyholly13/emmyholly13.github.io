@@ -303,11 +303,12 @@ form label.top input:required:valid {
 }
 form label.comment input {
     display: block;
+    color: #555;
     font-size: 1rem;
     border: solid 2px rgb(29, 28, 28);
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    
    
     max-width: 40rem;
     height: 15rem;
