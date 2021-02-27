@@ -6,7 +6,7 @@
         grid-template-columns: 1fr;
     }
     /*----------FORM---------*/
-    from label.sbs {
+    form label.stormInfo {
         padding: .4rem 0;
     }
     

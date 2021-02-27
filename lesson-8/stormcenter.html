@@ -61,8 +61,8 @@
 
             <fieldset>
                 <legend>Storm Information</legend>
-                <label class="sbs">Storm Date <input type="date" name="date"></label>
-                <label class="sbs" for="storm-type">Storm Type:</label>
+                <label class="stormInfo">Storm Date <input type="date" name="date"></label>
+                <label class="stormInfo" for="storm-type">Storm Type:</label>
                 <input list="storm-types" id="storm-type" name="storm-type"/>
                 <datalist id="storm-types">
                     <option value="Flash Flood">
@@ -72,13 +72,13 @@
                     <option value="Tornado">
                 </datalist>
             
-                <label class="rating">Rating: &nbsp;&nbsp;&nbsp;</label>
-                    <label class="sbs">Storm Severity <input type="range" id="rating" name="rating" value="5" min="1"
+                <label class="rating"> &nbsp;&nbsp;&nbsp;</label>
+                    <label class="stormInfo">Storm Severity <input type="range" id="rating" name="rating" value="5" min="1"
                             max="10" step="1" list="storm-type" oninput="adjustRating(this.value)"
                             onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span> </label> 
                
-                <label class="sbs">Storm Region
+                <label class="stormInfo">Storm Region
                     <select name="region">
                         <option value="select-region" disabled> Select Region &#9662;</option>
                         <option value="preston">Preston</option>
@@ -87,12 +87,13 @@
                     </select>
                 </label>
                
-                <label class="sbs">User In-Danger <input type="radio" name="User in-danger level" value="yes"> Yes
+                <label class="radio-label">Are you in danger? <input type="radio" name="User in-danger level" value="yes"> Yes
                     </label>
-                    <label class="sbs">User In-Danger <input type="radio" name="User in-danger level" value="maybe">
+                    <label class="radio-label"><input type="radio" name="User in-danger level" value="maybe">
                         Maybe</label>
-                        <label class="sbs">User In-Danger <input type="radio" name="User in-danger level" value="no"> No
+                        <label class="radio-label"><input type="radio" name="User in-danger level" value="no"> No
                             </label>
+                        </class=>
             </fieldset>
             <fieldset>
                 <legend>Additional Information or Comments</legend>

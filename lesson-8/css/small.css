@@ -279,14 +279,21 @@ form label.top input, form label.top select {
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
-form label.sbs {
+form label.stormInfo {
     display: block;
     padding: .75rem 0;
     color: #555;   
 }
-form label.sbs input , form label.sbs select, input {
+form label.stormInfo input , form label.stormInfo select, input {
     background-color: rgba(0,0,0,0.1);
 }
+form label.radio-label {
+    display: flex;
+    padding: .75rem 0;
+    flex-direction: column;
+    color: #555;  
+}
+
 form input.submitBtn {
     border: none;
     background-color: #343333;
