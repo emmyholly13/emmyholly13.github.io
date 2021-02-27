@@ -250,12 +250,13 @@ form fieldset {
     border: solid 2px rgb(29, 28, 28);
     border-radius: 10px;
     padding: .5rem 2%;
-   background-color: #9686ceb5;
+   background-color: #c39ad7ba;
 }
 form legend {
     color: #020202;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 1.5rem;
 
 }
 form label.top, form div {
@@ -263,7 +264,7 @@ form label.top, form div {
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
-    color:rgb(165, 69, 69);
+    color:rgb(1, 1, 1);
     font-size: .8rem;
 }
 form label.top input, form label.top select {
@@ -274,24 +275,24 @@ form label.top input, form label.top select {
     border: solid 2px rgb(87, 87, 87);
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: rgb(0, 0, 0);
   
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.879);
 }
 form label.stormInfo {
     display: block;
     padding: .75rem 0;
-    color: #555;   
+    color: rgb(0, 0, 0);   
 }
 form label.stormInfo input , form label.stormInfo select, input {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.879);
 }
 form label.radio-label {
     display: flex;
     padding: .75rem 0;
     flex-direction: column;
-    color: #555;  
+    color: rgb(0, 0, 0);  
 }
 
 form input.submitBtn {
@@ -319,7 +320,7 @@ form label.comment input {
     padding: .75rem;
     max-width: 40rem;
     height: 15rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.879);
 }
 
 picture.herophoto {
