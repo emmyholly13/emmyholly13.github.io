@@ -244,8 +244,7 @@ tfoot tr td {
 
 /*--------FORM-----------*/
 
-
-form fieldset {
+form fieldset {  
     margin: 2rem 0;
     border: solid 2px rgb(29, 28, 28);
     border-radius: 10px;
