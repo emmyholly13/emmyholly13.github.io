@@ -36,6 +36,7 @@ nav ul li a {
    
      
      .contentbox {
+       
         display: grid;
         margin: 10px auto;
         padding: 15px;
@@ -46,7 +47,14 @@ nav ul li a {
         box-sizing: border-box;
         line-height: 1em;
         justify-content: center;
+        
     }
+    .contentbox h2 {
+        text-align: center;
+        justify-items: center;
+        justify-self: center;
+    }
+  
     .contentbox-article {
         display: grid;
         margin: 10px auto;
@@ -82,16 +90,16 @@ nav ul li a {
         display: grid;
         grid-template-columns: 1fr 1fr;
 }
-img {
+.weatherImg img {
     min-width: 150px;
     max-width: 300px;
     background-color: grey;
 }
-img[data-src] {
+.weatherImg img[data-src] {
     filter: blur(3px);
 }
 
-img {
+.weatherImg img {
     margin-top: 20px;
     filter: blur(0px);
     transition: filter 0.5s;

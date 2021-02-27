@@ -6,47 +6,58 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-header, footer {
+
+header,
+footer {
     display: flex;
-     
+
 }
-header, nav, main, footer {
+
+header,
+nav,
+main,
+footer {
     margin: 0 auto;
     max-width: 1100px;
-    
-   
+
+
 }
+
 header img {
-  background-color: transparent;
-  
+    background-color: transparent;
+
 }
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #fff;  
-    
-    
+    color: #fff;
+
+
 }
+
 nav {
-    
+
     font-family: 'Roboto', sans-serif;
     background-color: #0a6fad;
 }
 
 
 nav ul {
-    
+
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
+
 }
+
 .active {
     background-color: black;
 }
+
 nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
@@ -54,24 +65,29 @@ nav ul li a {
     padding: 0.75rem 2%;
     text-decoration: none;
     font-size: 1rem;
-    border-top:1px solid rgba(0,0,0,0.3);
-   
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
 }
+
 nav ul li a:hover {
     background-color: #09b6d9;
-    color: black; 
+    color: black;
 }
+
 nav ul.hide {
     display: none;
 
 }
+
 .herodiv {
+    grid-column: span 3;
     position: relative;
     border: 0px solid #ccc;
     color: black;
 }
+
 .herodiv img {
-width: 100%;
+    width: 100%;
 
 }
 
@@ -83,47 +99,51 @@ h1 {
 }
 
 h2 {
-
+    
     font-family: 'Roboto', sans-serif;
     color: rgb(29, 29, 29);
     padding: 1rem;
-     line-height: 1em;
+    line-height: 1em;
 }
+
 h3 {
-  
+
     color: rgb(29, 29, 29);
     text-align: left;
     padding: .5rem;
     font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 h4 {
-    color:  rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
     text-align: left;
     padding: 1rem;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 #banner {
     margin: 0 auto;
     max-width: 1100px;
     display: none;
     font-family: 'Roboto', sans-serif;
     background-color: #d98d09;
-    color:  rgb(29, 29, 29);
-   text-align: center;
-    padding: .3rem;  
+    color: rgb(29, 29, 29);
+    text-align: center;
+    padding: .3rem;
 }
 
- 
+
 header {
     display: flex;
     font-family: 'Anton', sans-serif;
     background-color: #0997d9;
-    color:  rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
     align-items: center;
     justify-content: center;
-    padding: 1.25rem;  
+    padding: 1.25rem;
 }
+
 header h1 {
     margin: 1rem;
 }
@@ -135,9 +155,13 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+#mainheading {
+    grid-column: span 3;
+}
+
 main section {
     background-color: #0a6fad;
-    margin: 1rem ;
+    margin: 1rem;
     border: 1px solid #0a6fad;
     text-align: left;
     padding: .5rem;
@@ -152,54 +176,64 @@ main ul {
 }
 
 
-picture.herophoto img{
-   
-max-width: 1100px;
-display: flex;
+picture.herophoto {
+grid-column: span 3;
+    max-width: 1100px;
+    display: flex;
 }
+
 picture.articlephoto {
-    display:block;
+    display: block;
     width: 46%;
     margin: 0 2%;
 }
+
 .weathersummary {
-    
+
     top: 10px;
     left: 50px;
     background-color: rgba(127, 211, 242, 0.5);
     padding: .5rem;
     border: 0px;
-line-height: .9rem;
+    line-height: .9rem;
 }
 
 .contentbox {
-        display: block;
-        margin: 10px auto;
-        padding: 15px;
-        color: rgb(87, 87, 87);
-        background-color: rgb(161, 187, 208);
-        box-sizing: border-box;
-        line-height: 1em;
-        margin: 0;
-        justify-content: left;
-  
+    grid-column: span 3;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: rgb(87, 87, 87);
+    background-color: rgb(161, 187, 208);
+    box-sizing: border-box;
+    line-height: 1em;
+    margin: 0;
+    justify-content: left;
+
+}
+.contentbox h2 {
+    text-align: center;
 }
 .fiveday-imgs {
+    grid-column: span 3;
     display: inline-block;
 }
 
 .fiveday-imgs img {
+    grid-column: span 3;
     width: 100%;
 }
+
 .contentbox-article {
-        display: block;
-        margin: 10px auto;
-        padding: 15px;
-        color:  rgb(29, 29, 29);
-        background-color: rgb(161, 187, 208);
-        box-sizing: border-box;
-        line-height: 1em;
-  
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: rgb(29, 29, 29);
+    background-color: rgb(161, 187, 208);
+    box-sizing: border-box;
+    line-height: 1em;
+
 }
 
 
@@ -208,56 +242,65 @@ line-height: .9rem;
 section.weatherImg {
     display: grid;
     grid-template-columns: 1fr;
-    
+
 }
-img {
+
+section.weatherImg img {
     min-width: 150px;
     max-width: 300px;
     background-color: grey;
 }
-img[data-src] {
+
+section.weatherImg img[data-src] {
     filter: blur(3px);
 }
 
-img {
+section.weatherImg img {
     margin-top: 20px;
     filter: blur(0px);
     transition: filter 0.5s;
 }
+
 figure {
     box-shadow: 5px 5px 5px 5px black;
 }
+
 figure.img {
     max-width: 300px;
-    
+
 }
+
 figcaption {
-   text-align: center;
-    
+    text-align: center;
+
 }
 
 
 .footersection {
+    grid-column: span 3;
     display: block;
     margin: 10px auto;
     padding: 15px;
-    color:  rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
     background-color: rgb(161, 187, 208);
     box-sizing: border-box;
     line-height: 1em;
     margin: 0;
     justify-content: left;
 }
+
 .footersection iframe {
-width: 100%;
+    width: 100%;
 }
+
 .contact {
-    color:  rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
     display: block;
     margin: 10px auto;
     padding: 15px;
     line-height: 1em;
 }
+
 .social {
     display: inline-block;
     margin: 10px auto;
@@ -270,8 +313,9 @@ footer {
     color: #000;
     text-align: center;
     padding: 1rem;
-    font-size: .8em; 
+    font-size: .8em;
 }
+
 footer {
     text-align: center;
     margin-top: 20px;
@@ -283,5 +327,4 @@ footer {
     content: "";
     display: table;
     clear: both;
-  }
-  
+}

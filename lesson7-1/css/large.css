@@ -56,16 +56,16 @@ section.weatherImg {
     grid-template-columns: 1fr 1fr 1fr;
     
 }
-img {
+.weatherImg img {
     min-width: 150px;
     max-width: 300px;
     background-color: grey;
 }
-img[data-src] {
+.weatherImg img[data-src] {
     filter: blur(3px);
 }
 
-img {
+.weatherImg img {
     margin-top: 20px;
     filter: blur(0px);
     transition: filter 0.5s;
