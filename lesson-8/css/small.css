@@ -246,7 +246,6 @@ tfoot tr td {
 
 
 form fieldset {
-   
     margin: 2rem 0;
     border: solid 2px rgb(29, 28, 28);
     border-radius: 10px;
@@ -261,14 +260,16 @@ form legend {
 }
 form label.top, form div {
 
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding-top: 1rem;
     color:rgb(165, 69, 69);
     font-size: .8rem;
 }
 form label.top input, form label.top select {
    
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     border: solid 2px rgb(29, 28, 28);
     border-radius: 4px;
