@@ -1,0 +1,39 @@
+body {
+    background-color: lightgrey;
+}
+section {
+    background-color: rgba(130, 125, 147, 0.721);
+    padding: 2rem;
+    border: 1px solid black;
+  
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .5rem;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+h1 {
+   
+    text-align: center;
+    color: rgb(93, 93, 165);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(74, 74, 154);
+}
+
+
+
+span {
+    padding: .5rem;
+    
+}
+img {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.214);
+}
