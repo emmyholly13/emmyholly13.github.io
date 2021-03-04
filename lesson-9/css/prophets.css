@@ -36,4 +36,6 @@ span {
 }
 img {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.214);
+    /*'0 0 30px #333';
+    style.width = '200px';*/
 }
