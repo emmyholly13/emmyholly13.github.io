@@ -1,8 +1,0 @@
-@media only screen and (min-width: 768px) {
-   
-    main div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        max-width: 100%;
-    }
-}
