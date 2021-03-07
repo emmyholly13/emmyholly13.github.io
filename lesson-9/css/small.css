@@ -381,8 +381,21 @@ picture.articlephoto {
     line-height: 1em;
 
 }
-
-
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cards section{
+    border: 2px solid lightgray;
+    text-align: center;
+    background-color: rgb(161, 187, 208);
+   
+}
+.cards section img {
+    background-color: #0a6fad; 
+    padding: 20px;
+    margin: 10px;
+}
 
 
 section.weatherImg {
