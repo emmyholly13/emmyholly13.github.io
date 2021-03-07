@@ -86,6 +86,9 @@ nav ul li a {
         text-align: center;
         
     }
+    .cards {
+        display: flex;
+    }
  
   .contact {
     display: inline-block;
