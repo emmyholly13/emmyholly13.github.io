@@ -1,0 +1,489 @@
+body {
+    max-width: 100%;
+    background-color: #16bdf0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    display: flex;
+
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 1100px;
+
+
+}
+
+header img {
+    background-color: transparent;
+
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+
+
+}
+
+nav {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a6fad;
+}
+
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.active {
+    background-color: black;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.75rem 2%;
+    text-decoration: none;
+    font-size: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+nav ul li a:hover {
+    background-color: #09b6d9;
+    color: black;
+}
+
+nav ul.hide {
+    display: none;
+
+}
+
+.herodiv {
+    grid-column: span 3;
+    position: relative;
+    border: 0px solid #ccc;
+    color: black;
+}
+
+.herodiv img {
+    width: 100%;
+
+}
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+h2 {
+    grid-column: span 3;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(29, 29, 29);
+    padding: 1rem;
+    line-height: 1em;
+}
+
+h3 {
+
+    color: rgb(29, 29, 29);
+    text-align: left;
+    padding: .5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: rgb(29, 29, 29);
+    text-align: left;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #d98d09;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    padding: .3rem;
+}
+
+
+header {
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    background-color: #0997d9;
+    color: rgb(29, 29, 29);
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+header h1 {
+    margin: 1rem;
+}
+
+main {
+
+    margin: 1.25rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+#mainheading {
+    grid-column: span 3;
+}
+
+main section {
+    background-color: #0a6fad;
+    margin: 1rem;
+    border: 1px solid #0a6fad;
+    text-align: left;
+    padding: .5rem;
+}
+
+
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*----------TABLE----------*/
+table {
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 5px 5px 5px 5px #628ca6;
+    margin: auto;
+    margin-top: 45px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(186, 186, 186);
+    border-collapse: collapse;
+}
+
+thead tr th {
+    height: 30px;
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+
+}
+
+tr th {
+    height: 30px;
+    color: white;
+    background-color: #628ca6;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+tr td {
+    height: 35px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+
+
+tfoot tr td {
+    height: 30px;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #7fb9c2;
+}
+
+.col {
+    background-color: #628ca6;
+    color: #fff;
+}
+
+/*--------FORM-----------*/
+
+form fieldset {  
+    margin: 2rem 0;
+    border: solid 2px rgb(29, 28, 28);
+    border-radius: 10px;
+    padding: .5rem 2%;
+   background-color: #c39ad7ba;
+}
+form legend {
+    color: #020202;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+
+}
+form label.top, form div {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    color:rgb(1, 1, 1);
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+   
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    border: solid 2px rgb(87, 87, 87);
+    border-radius: 4px;
+    padding: .75rem;
+    color: rgb(0, 0, 0);
+  
+    max-width: 20rem;
+    background-color: rgba(255, 255, 255, 0.879);
+}
+form label.stormInfo {
+    display: block;
+    padding: .75rem 0;
+    color: rgb(0, 0, 0);   
+}
+form label.stormInfo input , form label.stormInfo select, input {
+    background-color: rgba(255, 255, 255, 0.879);
+}
+form label.radio-label {
+    display: flex;
+    padding: .75rem 0;
+    flex-direction: column;
+    color: rgb(0, 0, 0);  
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #343333;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: rgb(165, 69, 69) solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+form label.comment input {
+    display: block;
+    color: #555;
+    font-size: 1rem;
+    border: solid 2px rgb(87, 87, 87);
+    border-radius: 4px;
+    padding: .75rem;
+    max-width: 40rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.879);
+}
+
+picture.herophoto {
+grid-column: span 3;
+    max-width: 1100px;
+    display: flex;
+}
+
+picture.articlephoto {
+    display: block;
+    width: 46%;
+    margin: 0 2%;
+}
+
+.weathersummary {
+
+    top: 10px;
+    left: 50px;
+    background-color: rgba(127, 211, 242, 0.5);
+    padding: .5rem;
+    border: 0px;
+    line-height: .9rem;
+}
+
+.contentbox {
+    grid-column: span 3;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: rgb(87, 87, 87);
+    background-color: rgb(161, 187, 208);
+    box-sizing: border-box;
+    line-height: 1em;
+    margin: 0;
+    justify-content: left;
+
+}
+.contentbox h2 {
+   grid-column: span 3;
+}
+.fiveday-imgs {
+    grid-column: span 3;
+    display: inline-block;
+}
+
+.fiveday-imgs img {
+    grid-column: span 3;
+    width: 100%;
+}
+
+.contentbox-article {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: rgb(29, 29, 29);
+    background-color: rgb(161, 187, 208);
+    box-sizing: border-box;
+    line-height: 1em;
+
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.cards section{
+    border: 2px solid lightgray;
+    text-align: center;
+    background-color: rgb(161, 187, 208);
+   
+}
+.cards section img {
+    background-color: #0a6fad; 
+    padding: 20px;
+    margin: 10px;
+}
+
+
+section.weatherImg {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+section.weatherImg img {
+    min-width: 150px;
+    max-width: 300px;
+    background-color: grey;
+}
+
+section.weatherImg img[data-src] {
+    filter: blur(3px);
+}
+
+section.weatherImg img {
+    margin-top: 20px;
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+
+figure {
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+figure.img {
+    max-width: 300px;
+
+}
+
+figcaption {
+    text-align: center;
+
+}
+
+
+.footersection {
+    grid-column: span 3;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: rgb(29, 29, 29);
+    background-color: rgb(161, 187, 208);
+    box-sizing: border-box;
+    line-height: 1em;
+    margin: 0;
+    justify-content: left;
+}
+
+.footersection iframe {
+    width: 100%;
+}
+
+.contact {
+    color: rgb(29, 29, 29);
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    line-height: 1em;
+}
+
+.social {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 15px;
+    line-height: 1em;
+}
+
+footer {
+    background-color: #0997d9;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+    font-size: .8em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
