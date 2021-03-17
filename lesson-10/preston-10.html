@@ -41,7 +41,7 @@
         <ul id="primaryNav" class="hide">
 
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li class="active"><a href="preston-10.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
@@ -61,14 +61,15 @@
             </picture>
             <section class="weathersummary">
                 <h3>Weather Summary</h3>
+        
                 <p class="label">Currently:</p>
-                <p class="value">76&deg;F<br />Sunny</p>
-                <p class="label">Temperature:</p>
-                <p class="value"><span id="temp">76</span>&deg;F</p>
+                <p class="value"><span id="current-temp"></span>&deg; F</p>
+                <p class="label">High:</p>
+                <p class="value"><span id="high-temp"></span>&deg; F</p>
                 <p class="label">Humidity:</p>
-                <p class="value">50%</p>
+                <p class="value"><span id="humidity"></span>&deg; F</p>
                 <p class="label">Wind Speed:</p>
-                <p class="value"><span id="speed">15</span>MPH</p>
+                <p class="value"><span id="speed"></span>MPH</p>
                 <p class="label">Wind Chill:</p>
                 <p class="value"><span id="windchill"></span>&deg;F</p>
    
@@ -82,7 +83,7 @@
             <h2>Five-Day Forecast</h2>
             <div class="fiveday-imgs">
 
-                <img src="images/5day forecast.png" alt="forecast photo">
+                <img src="" alt="">
 
             </div>
         </div>
@@ -143,13 +144,14 @@
         &copy; 2021 | Preston Bike Weather | Emmy Bitter | Current Date: <span id="currentdate"></span> 
 
     </footer>
-    <script src="js/prestonPage.js"></script>
+   
     <script src="js/currentdate.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
     <script src="js/prestonweatherapi.js"></script>
+    <script src="js/forecast.js"></script>
 
 </body>
 
