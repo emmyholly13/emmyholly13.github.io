@@ -358,6 +358,21 @@ picture.articlephoto {
     justify-content: left;
 
 }
+
+.event {
+    grid-column: span 3;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: rgb(87, 87, 87);
+    background-color: rgb(161, 187, 208);
+    box-sizing: border-box;
+    line-height: 1em;
+    margin: 0;
+    justify-content: left;
+
+}
 .contentbox h2 {
    grid-column: span 3;
 }
