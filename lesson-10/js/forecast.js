@@ -2,13 +2,17 @@ const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473
 
 fetch(forecastURL)
 .then((response) => response.json())
-.then((jsObject) => {
-    console.log(jsObject);
+.then((forecastjsObject) => {
+    console.log(forecastjsObject);
 
     
-    const forecast = jsObject["list"];
+    const forecast = forecastjsObject["list"];
+const table =document.querySelector("fiveday");
+
     const forecastfilter = forecast.filter((x) => x.dt_txt.includes("18:00:00"));
     console.log(forecastfilter);
+
+
 
 
 
@@ -19,7 +23,7 @@ fetch(forecastURL)
     document.getElementById('icon').setAttribute('src', imagesrc);
     document.getElementById('icon').setAttribute('alt', desc);
 
-
+document.querySelector('#fiveday').appendchild(day);
 
 
 
