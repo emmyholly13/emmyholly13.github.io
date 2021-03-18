@@ -7,7 +7,7 @@ fetch(forecastURL)
 
 
         const forecast = forecastjsObject["list"];
-        const table = document.querySelector("fiveday");
+        const table = document.querySelector("#fiveday");
 
         const forecastfilter = forecast.filter((x) => x.dt_txt.includes("18:00:00"));
         console.log(forecastfilter);
@@ -19,15 +19,15 @@ fetch(forecastURL)
 
 
 
-            let tableimgURL = "https://openweathermap.org/img/w/" + '${filtered.weather[0].icon}' + ".png";
+            let tableimgURL = "https://openweathermap.org/img/w/" + filtered.weather[0].icon + ".png";
             tableimg.setAttribute("src", tableimgURL);
-            tableimg.setAttribute("alt", '${filtered.weather[0].description}');
-            tabledata.innerHTML = '${filtered.main.temp.toFixed(0)}&deg;F';
+            tableimg.setAttribute("alt", filtered.weather[0].description);
+            tabledata.innerHTML = filtered.main.temp.toFixed(0);
 
 
             console.log(tableimgURL);
-
-            table.appendChild(tabledata);
+table.appendChild(tabledata);
+          
 
         });
 
