@@ -71,6 +71,17 @@ nav ul li a {
         line-height: 1em;
         justify-content: left;
     }
+    #fiveday tr th {
+    
+        height: 30px;
+        color: white;
+        background-color: #0997d9;
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
   
     .contentbox h2 {
         text-align: center;

@@ -374,17 +374,17 @@ picture.articlephoto {
 
 }
 .contentbox h2 {
-   grid-column: span 3;
+   grid-column: span 4;
 }
+
 #fiveday {
     grid-column: span 3;
     display: inline-block;
-}
-#fiveday {
     font-family: 'Ubuntu', sans-serif;
     box-shadow: 5px 5px 5px 5px #628ca6;
     margin: auto;
     margin-top: 0px;
+    width: 100%;
 }
 
 #fiveday,
@@ -392,21 +392,26 @@ th,
 td {
     border: .5px solid rgb(63, 62, 62);
     border-collapse: collapse;
+    display: inline-block;
 }
 
 #fiveday tr th {
+    
     height: 30px;
     color: white;
     background-color: #0997d9;
     font-size: 1.5rem;
     text-align: center;
     
+    
 }
 
 
 #fiveday tr td {
     height: 75px;
+    
     text-align: center;
+    display: inline-block;
 }
 
 

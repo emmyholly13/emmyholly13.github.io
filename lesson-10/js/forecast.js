@@ -28,6 +28,7 @@ fetch(forecastURL)
 
       console.log(tableimgURL);
       table.appendChild(tabledata);
+      table.appendChild(tableimg);
 
 
     });
