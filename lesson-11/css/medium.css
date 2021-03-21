@@ -1,165 +1,166 @@
 @media only screen and (min-width: 768px) {
    
-   nav button {
-        display: none;
-       
+    nav button {
+         display: none;
+        
+     }
+    nav ul.hide {
+        display: flex;
     }
-   nav ul.hide {
-       display: flex;
-   }
-    
-    nav a {
-        font-size: 1.2rem;
-    }  
- nav ul {
-     display: flex;
-
- }
- nav ul li { flex: 1 1 100%;
-   
-}
-nav ul li a {
-    border: none;
-}
- main {
-     grid-template-columns: 1fr;}
-
-     .weathersummary {
-        position: absolute;
-        top: 10px;
-        left: 50px;
-        background-color: rgba(127, 211, 242, 0.5);
-        padding: .5rem;
-        border: 0px;
-    
-    }
-    form label.comment input {
-        display: block;
-        font-size: 1rem;
-        border: solid 2px rgb(87, 87, 87);
-        border-radius: 4px;
-        padding: .75rem;
-        color: #555;
-        width: 75rem;
-        height: 15rem;
-       
-    }
-   
      
-     .contentbox {
-        display: grid;
-        margin: 10px auto;
-        padding: 15px;
-        color: rgb(87, 87, 87);
-        background-color: rgb(161, 187, 208);
-        text-align: center;
-        align-items: center;
-        box-sizing: border-box;
-        line-height: 1em;
-        justify-content: center;
-        
-    }
-    .event {
-        display: grid;
-        margin: 10px auto;
-        padding: 15px;
-        color: rgb(87, 87, 87);
-        background-color: rgb(161, 187, 208);
-        text-align: left;
-        align-items: left;
-        box-sizing: border-box;
-        line-height: 1em;
-        justify-content: left;
-    }
-    #fiveday tr th {
-    
-        height: 30px;
-        color: white;
-        background-color: #0997d9;
-        font-size: 1.5rem;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        
-    }
-  
-    .contentbox h2 {
-        text-align: center;
-        justify-items: center;
-        justify-self: center;
-    }
-  
-    .contentbox-article {
-        display: grid;
-        margin: 10px auto;
-        padding: 15px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(161, 187, 208);
-        align-items: center;
-        box-sizing: border-box;
-        line-height: 1em;
-        justify-content: center;
-    }
-    .article {
-        display: flex;
-        
-       
-       
-    }
-    .article h2 {
-        text-align: center;
-        
-    }
-    .cards {
-        display: flex;
-    }
+     nav a {
+         font-size: 1.2rem;
+     }  
+  nav ul {
+      display: flex;
  
-  .contact {
-    display: inline-block;
-    margin: 10px auto;
-    padding: 15px;
-    line-height: 1em;
-}
-.social {
-    display: block;
-    }
-    section.weatherImg {
+  }
+  nav ul li { flex: 1 1 100%;
+    
+ }
+ nav ul li a {
+     border: none;
+ }
+  main {
+      grid-template-columns: 1fr;}
+ 
+      .weathersummary {
+         position: absolute;
+         top: 10px;
+         left: 50px;
+         background-color: rgba(127, 211, 242, 0.5);
+         padding: .5rem;
+         border: 0px;
+     
+     }
+     form label.comment input {
+         display: block;
+         font-size: 1rem;
+         border: solid 2px rgb(87, 87, 87);
+         border-radius: 4px;
+         padding: .75rem;
+         color: #555;
+         width: 75rem;
+         height: 15rem;
+        
+     }
+    
+      
+      .contentbox {
+         display: grid;
+         margin: 10px auto;
+         padding: 15px;
+         color: rgb(87, 87, 87);
+         background-color: rgb(161, 187, 208);
+         text-align: center;
+         align-items: center;
+         box-sizing: border-box;
+         line-height: 1em;
+         justify-content: center;
+         
+     }
+     .event {
+         display: grid;
+         margin: 10px auto;
+         padding: 15px;
+         color: rgb(87, 87, 87);
+         background-color: rgb(161, 187, 208);
+         text-align: left;
+         align-items: left;
+         box-sizing: border-box;
+         line-height: 1em;
+         justify-content: left;
+     }
+     #fiveday tr th {
+     
+         height: 30px;
+         color: white;
+         background-color: #0997d9;
+         font-size: 1.5rem;
+         align-items: center;
+         text-align: center;
+         justify-content: center;
+         
+     }
+   
+     .contentbox h2 {
+         text-align: center;
+         justify-items: center;
+         justify-self: center;
+     }
+   
+     .contentbox-article {
+         display: grid;
+         margin: 10px auto;
+         padding: 15px;
+         color: rgb(0, 0, 0);
+         background-color: rgb(161, 187, 208);
+         align-items: center;
+         box-sizing: border-box;
+         line-height: 1em;
+         justify-content: center;
+     }
+     .article {
+         display: flex;
+         
+        
+     }
+     .article h2 {
+         text-align: center;
+         
+     }
+     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
-}
-.weatherImg img {
-    min-width: 150px;
-    max-width: 300px;
-    background-color: grey;
-}
-.weatherImg img[data-src] {
-    filter: blur(3px);
-}
-
-.weatherImg img {
-    margin-top: 20px;
-    filter: blur(0px);
-    transition: filter 0.5s;
-}
-figure {
-    box-shadow: 5px 5px 5px 5px black;
-}
-figure.img {
-    max-width: 300px;
-    
-}
-figcaption {
-   text-align: center;
-}
-footer {
-    background-color: #0997d9;
-    color: #000;
+    }
+  
+   .contact {
+     display: inline-block;
+     margin: 10px auto;
+     padding: 15px;
+     line-height: 1em;
+ }
+ .social {
+     display: block;
+     }
+     section.weatherImg {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+ }
+ .weatherImg img {
+     min-width: 150px;
+     max-width: 300px;
+     background-color: grey;
+ }
+ .weatherImg img[data-src] {
+     filter: blur(3px);
+ }
+ 
+ .weatherImg img {
+     margin-top: 20px;
+     filter: blur(0px);
+     transition: filter 0.5s;
+ }
+ figure {
+     box-shadow: 5px 5px 5px 5px black;
+ }
+ figure.img {
+     max-width: 300px;
+     
+ }
+ figcaption {
     text-align: center;
-    padding: 1rem;
-    font-size: .8em; 
-}
-footer {
-    text-align: center;
-    margin-top: 20px;
-}
-}
+ }
+ footer {
+     background-color: #0997d9;
+     color: #000;
+     text-align: center;
+     padding: 1rem;
+     font-size: .8em; 
+ }
+ footer {
+     text-align: center;
+     margin-top: 20px;
+ }
+ }
+ 
