@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Home Page</title>
+   
+    <meta name="description"
+        content="Weather Home Page for Emmy Bitter in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+<body>
+    <div id="banner">
+        <p>"Saturday = Preston Pancakes in the Park!</p>  
+        <p>9:00 a.m. Saturday at the city park pavilion."</p>
+    </div>
+    <header>
+        <img src="images/bike_logo.png" alt="Weather_bike_logo">
+        <section class="headings">
+            <h1>Bike Weather</h1>
+            <div class="tag">It's a great day for a ride!</div>
+        </section>
+
+
+    </header>
+    <nav class="clearfix">
+
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div class="cards"></div>
+
+        <div class="contentbox">
+            <h2>Upcoming Events:</h2>
+            <div class="event">
+            <h3>Preston Idaho Fun Run, Biathlon and Triathlon</h3>
+            <h4>Event Description:</h4>
+
+                <p>Come on out for our annual Fun Run, Biathlon and for the 2nd year Triathlon.<br>
+                    This Preston Idaho event is intended for all ages. <br>
+                    We are an excellent introduction to the sport of triathlon for beginners and look forward to another year offering these great events.  <br>
+                <h4>Event details and schedule:</h4>
+                
+                Saturday August 1, 2021 
+                
+                <p>7am-11 am Preston Aquatic Center</p> 
+                
+                 
+                
+                Packet pick up will be announced by July 25, 2021</p>
+        </div>
+        </div>
+        
+        <div class="footersection">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72630239669!2d-111.91543010718576!3d42.09980528544919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612562334684!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"> </iframe>
+
+            <div class="contact">
+                <h3>Contact Information</h3>
+                <p>555 Center St. Preston, Idaho 12345</p>
+                <p>555-555-5555</p>
+                <p>info@bikeweather.com</p>
+
+                <div class="social">
+                    <img src="images/facebook.png" alt="facebook icon">
+                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        &copy; 2021 | Home Page | Emmy Bitter | Current Date: <span id="currentdate"></span> 
+
+    </footer>
+    
+    <script src="js/currentdate.js"></script>
+    <script src="js/towndata.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/prestonweatherapi.js"></script>
+   
+
+</body>
+
+</html>
