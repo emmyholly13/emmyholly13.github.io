@@ -1,0 +1,125 @@
+@media only screen and (min-width: 1250px) {
+    nav a {
+        font-size: 1.5rem;
+    }
+     main {
+        grid-template-columns: 1fr;
+    }
+
+    picture.herophoto {
+        display: grid;
+        margin: 10px auto;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        align-items: center;
+        box-sizing: border-box;
+        line-height: 1em;
+        justify-content: center;
+    
+    }
+    /*----------FORM---------*/
+    form label.stormInfo {
+        padding: .4rem 0;
+    }
+    
+    
+    .weathersummary {
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        background-color: rgba(127, 211, 242, 0.5);
+        padding: .5rem;
+        border: 0px;
+    
+    }
+    .contentbox {
+        display: grid;
+        margin: 10px auto;
+        padding: 15px;
+        color: rgb(87, 87, 87);
+        background-color: rgb(161, 187, 208);
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+        line-height: 1em;
+        justify-content: center;
+    }
+    .contentbox-article {
+        display: grid;
+        margin: 10px auto;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        align-items: center;
+        box-sizing: border-box;
+        line-height: 1em;
+        justify-content: center;
+    
+    }
+   
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+
+     .footersection {
+        display: flex;
+        margin: 10px auto;
+        padding: 15px;
+        color: rgb(87, 87, 87);
+        background-color: white;
+        box-sizing: border-box;
+        line-height: 1em;
+        margin: 0;
+        justify-content: left;
+}
+section.weatherImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.weatherImg img {
+    min-width: 150px;
+    max-width: 300px;
+    background-color: grey;
+}
+.weatherImg img[data-src] {
+    filter: blur(3px);
+}
+
+.weatherImg img {
+    margin-top: 20px;
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+figure {
+    box-shadow: 5px 5px 5px 5px black;
+}
+figure.img {
+    max-width: 300px;
+    
+}
+figcaption {
+    text-align: center;
+}
+figure:hover {
+    box-shadow: 10px 15px grey;
+}
+.social {
+    display: flex;
+    }
+
+footer {
+    background-color: #2a4759;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: .8em; 
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+ } 
