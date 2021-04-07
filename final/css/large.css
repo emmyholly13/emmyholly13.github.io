@@ -28,7 +28,7 @@
         position: absolute;
         top: 10px;
         left: 50px;
-        background-color: rgba(127, 211, 242, 0.5);
+        background-color: #4c7466ac;
         padding: .5rem;
         border: 0px;
     
@@ -55,9 +55,12 @@
         box-sizing: border-box;
         line-height: 1em;
         justify-content: center;
-    
     }
-   
+    .contentbox-article2 h2 {
+        text-align: right;
+        
+    }
+  
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

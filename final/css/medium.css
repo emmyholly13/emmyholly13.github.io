@@ -28,7 +28,7 @@
          position: absolute;
          top: 10px;
          left: 50px;
-         background-color: #4c7466;
+         background-color: #4c7466ac;
          padding: .5rem;
          border: 0px;
      
@@ -94,29 +94,43 @@
          display: grid;
          margin: 10px auto;
          padding: 15px;
-         color: rgb(0, 0, 0);
+         color: #2a4759;
          background-color: white;
          align-items: center;
          box-sizing: border-box;
          line-height: 1em;
          justify-content: center;
      }
+     .contentbox-article2 {
+        display: grid;
+        margin: 10px auto;
+        padding: 15px;
+        color: #2a4759;
+        background-color: white;
+        align-items: center;
+        box-sizing: border-box;
+        line-height: 1em;
+        justify-content: center;
+    }
+    
+     
      .article {
          display: flex;
-         
-        
+
      }
+  
      .article h2 {
          text-align: center;
          
      }
+    
      .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
   
    .contact {
-     display: inline-block;
+     display: block;
      margin: 10px auto;
      padding: 15px;
      line-height: 1em;

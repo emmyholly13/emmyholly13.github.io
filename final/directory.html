@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS Chambers of Commerce</title>
+
+    <meta name="description"
+        content="Chamber of Commenrce Page for Emmy Bitter in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Cabin&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+<body>
+    
+    <header>
+        <img src="images/Colorado_logo.png" alt="Colorado flag logo">
+        <section class="headings">
+            <h1>COS Chambers</h1>
+            <div class="tag">Come Elevate With US!</div>
+        </section>
+
+
+    </header>
+    <nav class="clearfix">
+
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+
+
+            <li><a href="home.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+
+        </ul>
+    </nav>
+
+    <div class="herodiv">
+        <h1>Home of the Olympic Training Center</h1>
+        <picture class="herophoto">
+            <source media="(max-width: 400px)" srcset="images/velodrome400px.jpg">
+            <source media="(max-width: 800px)" srcset="images/velodrome800px.jpg">
+            <source media="(max-width: 1400px)" srcset="images/velodrome.JPG">
+
+            <img src="images/velodrome.JPG" alt="velodrome">
+        </picture>
+    </div>
+    <main>
+        <div class="contentbox-article">
+            <h2>Olympics in Colorado Springs</h2>
+            <div class="article">
+
+
+                <p>The U.S. Olympic & Paralympic Training Center in Colorado Springs is the flagship training center for the U.S. Olympic & Paralympic Committee and the Olympic & Paralympic Training Center programs. USA Swimming and USA Shooting have their national headquarters on complex. More than 15 other member organizations, as well as two international sports federations and the USOPC headquarters are also located in Colorado Springs, Colorado.
+                    The Colorado Springs Olympic & Paralympic Training Center is able to provide housing, dining, training facilities, recreational facilities and other services for more than 500 athletes and coaches at one time on the complex. Athletes are selected to train at the Colorado Springs OPTC by their respective National Governing Body.
+
+                    The Colorado Springs Olympic & Paralympic Training Center is home to sport facilities and support services for Olympic, Paralympic, Pan American and Parapan American sports.
+                </p>
+                  <!-- Source from www.teamusa.org -->
+               
+                <picture class="articlephoto">
+                 
+
+                    <img src="images/olympic_training center.JPG" alt="Olympic facility">
+                </picture>
+            </div>
+        </div>
+        <section class="weathersummary">
+            <h3>Weather Summary</h3>
+
+            <p class="label">Currently:</p>
+            <p class="value"><span id="current-temp"></span>&deg; F</p>
+            <p class="label">High:</p>
+            <p class="value"><span id="high-temp"></span>&deg; F</p>
+            <p class="label">Humidity:</p>
+            <p class="value"><span id="humidity"></span>&deg; F</p>
+         
+
+        </section>
+        <div class="contentbox-article2">
+            <h2>AirForce in Colorado Springs</h2>
+            
+            <picture class="articlephoto2">
+                <source media="(max-width: 400px)" srcset="images/thunderbirds1.JPG">
+
+                <img src="images/thunderbirds1.JPG" alt="thunderbirds flyby">
+            </picture>
+           
+            <div class="article2">
+                <p>With a history of excellence and a focus on the future, the United States Air Force Academy instills cadets with pride and integrity while preparing them to serve their country and succeed in 21st-century careers.
+
+                    As a public university and a military service academy, we are leading the way into an increasingly complex future, driving advancement and innovation in air, space and cyberspace, among countless other fields.
+                    
+                    Whether you come to Colorado Springs for the world-class education, military training, Division I athletics, or character-building challenge and adventure, one thing is certain, the Academy experience—more than 60 years in the making—is unlike any other.
+                </p>
+                <!-- Source from www.usafa.edu -->
+            </div>
+        </div>
+        <div class="contentbox-article">
+            <h2>Broadmoor Hotel in Colorado Springs</h2>
+            <div class="article">
+
+
+                <p>The Broadmoor welcomes guests to a legendary Forbes Five-Star and AAA Five-Diamond resort with impeccable service and distinctive amenities. Here, the spirit of the West inspires the adventurer within, providing endless opportunities to explore the picturesque mountains, streams, and canyons that have inspired generations. Whether you are interested in zip lining adventures and horseback riding, Colorado fly fishing, or an indulgent day at the spa, you’ll find endless activities for every age in every season. Experience an iconic Colorado Springs resort where personalized luxury offers an escape from the ordinary and modern details blend seamlessly with the timeless European elegance of our historic hotel.
+                </p>
+                 <!-- Source from www.broadmoor.com -->
+                <picture class="articlephoto">
+                    <source media="(max-width: 400px)" srcset="images/broadmoor.JPG">
+
+                    <img src="images/broadmoor.JPG" alt="Garden of the Gods photo">
+                </picture>
+            </div>
+        </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>COS Chambers</p>
+                <p>(719) 471-8183</p>
+                <p>102 South Tejon Street</p>
+                <p>Suite 1200</p>
+                <p>Colorado Springs, CO 80903</p>
+            </div>
+                <div class="social">
+                    <img src="images/facebook.png" alt="facebook icon">
+                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                
+            </div>
+        
+    </main>
+
+
+
+    <footer>
+        &copy; 2021 | COS Chambers Home Page | Emmy Bitter | Current Date: <span id="currentdate"></span>
+
+    </footer>
+
+    <script src="js/currentdate.js"></script>
+   
+    <script src="js/coloradospringsweatherapi.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webfontload.js"></script>
+
+</body>
+
+</html>

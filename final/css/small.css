@@ -353,12 +353,17 @@ picture.articlephoto {
     width: 100%;
     margin: 0 2%;
 }
+picture.articlephoto2 {
+    display: block;
+    width: 100%;
+    margin: 0 2%;
+}
 
 .weathersummary {
 
     top: 10px;
     left: 50px;
-    background-color: rgba(127, 211, 242, 0.5);
+    background-color: #4c7466ac;
     padding: .5rem;
     border: 0px;
     line-height: .9rem;
@@ -447,12 +452,23 @@ td {
     display: block;
     margin: 10px auto;
     padding: 15px;
-    color: rgb(29, 29, 29);
+    color: #2a4759;
     background-color: white;
     box-sizing: border-box;
     line-height: 1em;
 
 }
+.contentbox-article2 {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: #2a4759;
+    background-color: white;
+    box-sizing: border-box;
+    line-height: 1em;
+
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
