@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COS Chambers of Commerce</title>
+    <title>COS Chambers Membership Page</title>
 
     <meta name="description"
         content="Chamber of Commenrce Page for Emmy Bitter in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
@@ -46,95 +46,91 @@
         </ul>
     </nav>
     <main class="stormMain">
-        <h2 class="stormHeading">Report A Storm</h2>
+        <h2 class="stormHeading">Join Our Membership</h2>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234"></label>
-                <label class="top">Zip Code* <input type="number" name="number" required></label>
+                <label class="top">Title <input type="text" name="title" required></label>
+                <label class="top">Email* <input type="text" name="email" required></label>
+                <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Business Name* <input type="text" name="bname" required></label>
+                <label class="top">Business Address <input type="text" name="baddress" required></label>
+                <label class="top">Business Website <input type="text" name="bweb" required></label>
+                <label class="top">Business Description <input type="text" name="bdesc" required></label>
 
             </fieldset>
 
+            <div class="cards">
+            <section>
+               <h2>Non-Profit</h2> 
+               <p>$100</p>
+               <p>Benefits:</p>
+               <p>Directory Listings</p>
+               <p>1 Social Media Post per month</p>
+            </section>
+            <section>
+                <h2>Bronze</h2> 
+                <p>$200</p>
+                <p>Benefits:</p>
+               <p>Directory Listings</p>
+               <p>2 Social Media Post per month</p>
+               <p>Business Training</p>
+             </section>
+             <section>
+                <h2>Silver</h2> 
+                <p>$400</p>
+                <p>Benefits:</p>
+                <p>Directory Listings</p>
+                <p>3 Social Media Post per month</p>
+                <p>Business Training</p>
+                <p>Luncheon tickets</p>
+             </section>
+             <section>
+                <h2>Gold</h2> 
+                <p>$500</p>
+                <p>Benefits:</p>
+                <p>Directory Listings</p>
+                <p>3 Social Media Post per month</p>
+                <p>Business Training</p>
+                <p>Luncheon tickets</p>
+                <p>Sponsorships with Levels of Advertizing</p>
+             </section>
+            </div>
+
             <fieldset>
-                <legend>Storm Information</legend>
-                <label class="stormInfo">Storm Date <input type="date" name="date"></label>
-                <label class="stormInfo" for="storm-type">Storm Type:</label>
-                <input list="storm-types" id="storm-type" name="storm-type"/>
-                <datalist id="storm-types">
-                    <option value="Flash Flood">
-                    <option value="Hail">
-                    <option value="Hurricane">
-                    <option value="Thunderstorm">
-                    <option value="Tornado">
-                </datalist>
-            
-                <label class="rating"> &nbsp;&nbsp;&nbsp;</label>
-                    <label class="stormInfo">Storm Severity <input type="range" id="rating" name="rating" value="5" min="1"
-                            max="10" step="1" list="storm-type" oninput="adjustRating(this.value)"
-                            onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">5</span> </label> 
+                <legend>Memebership Levels Selection</legend>
                
-                <label class="stormInfo">Storm Region
+                <label class="stormInfo">Type of Membership
                     <select name="region">
-                        <option value="select-region" disabled> Select Region &#9662;</option>
-                        <option value="preston">Preston</option>
-                        <option value="preston">Soda Springs</option>
-                        <option value="preston">Fish Haven</option>
+                        <option value="select-membership" disabled> Select Membership &#9662;</option>
+                        <option value="Non-Profit">Non-Profit $100</option>
+                        <option value="Bronze">Bronze $200</option>
+                        <option value="Silver">Silver $300</option>
+                        <option value="Gold">Gold $400</option>
                     </select>
-                </label>
-               
-                <label class="radio-label">Are you in danger? <input type="radio" name="User in-danger level" value="yes"> Yes
-                    </label>
-                    <label class="radio-label"><input type="radio" name="User in-danger level" value="maybe">
-                        Maybe</label>
-                        <label class="radio-label"><input type="radio" name="User in-danger level" value="no"> No
-                            </label>
-                       
+                </label>         
             </fieldset>
-            <fieldset>
-                <legend>Additional Information or Comments</legend>
-                <label class="comment">Additional Comments <input type="text" name="textarea"></label>
-            </fieldset>
-            <input type="submit" value="Send Report" class="submitBtn">
+         <input type="submit" value="Send Selection" class="submitBtn">
 
         </form>
+       
+           
 
-
-        <div class="footersection">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72630239669!2d-111.91543010718576!3d42.09980528544919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612562334684!5m2!1sen!2sus"
-                width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"> </iframe>
-
-            <div class="contact">
-                <h3>Contact Information</h3>
-                <p>555 Center St. Preston, Idaho 12345</p>
-                <p>555-555-5555</p>
-                <p>info@bikeweather.com</p>
-
-                <div class="social">
-                    <img src="images/facebook.png" alt="facebook icon">
-                    <img src="images/instagram.png" alt="instagram icon">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </div>
-            </div>
-        </div>
-    </main>
+       
+    
+</main>
 
 
 
-    <footer>
-        &copy; 2021 | Storm Center | Emmy Bitter | Current Date: <span id="currentdate"></span>
+<footer>
+    &copy; 2021 | COS Chambers Membership Page | Emmy Bitter | Current Date: <span id="currentdate"></span>
 
-    </footer>
+</footer>
 
     <script src="js/currentdate.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/lazyload.js"></script>
-    <script src="js/stormcenter.js"></script>
+    <script src="js/joinform.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
 

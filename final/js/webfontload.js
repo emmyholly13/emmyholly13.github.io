@@ -2,7 +2,7 @@
 WebFont.load({
     google: {
     families: [
-        "Anton", "Roboto"
+        "Cabin", "Barlow"
     ]
 }
 });
